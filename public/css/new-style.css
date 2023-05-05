@@ -1,0 +1,30 @@
+:root{
+    --primaryColor:#5514b4,
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    background: #5514B4;
+}
+footer,header,li,.list-matches{
+    color: #fff;
+}
+
+.overlay-match{
+    opacity: .3;
+}
+@media (min-width: 768px){
+    .slider {
+        height: 32rem !important;
+    }
+}
+
+.match-container{
+background-image: url('../images/WhatsApp Image 2023-02-16 at 1.07.36 PM.jpeg');
+    background-size: cover;
+    color: #fff;
+ }
+/*.match-container:hover .overlay-match{opacity:.7}*/
+
+.primaryColor{
+    background: var(--primaryColor);
+}
